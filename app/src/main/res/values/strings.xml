@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">CovCare</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="rs_rujukan">RS Rujukan</string>
+    <string name="berita_terkini">Berita Terkini</string>
+    <string name="beranda">Beranda</string>
+    <string name="hotline">Hotline</string>
+    <string name="apakah_anda_merasak_tidak_enak_badan">Apakah anda merasak tidak enak badan?</string>
+    <string name="penjelasan_card">Jika anda merasa tidak sehat dengan tanda-tanda covid 19. Silahkan kontak kami pada nomor ini.</string>
+    <string name="hotline_home_card">Hotline +62 812-1212-3119</string>
+    <string name="last_update">Last Update: ???</string>
+    <string name="jumlah_kasus">Jumlah Kasus</string>
+    <string name="nilai_jumlah_kasus">671778</string>
+    <string name="dalam_perawatan">Dalam Perawatan</string>
+    <string name="nilai_total_dirawat">104809</string>
+    <string name="meninggal">Meninggal</string>
+    <string name="sembuh">Sembuh</string>
+    <string name="indonesia_cases">Indonesia Cases</string>
+    <string name="per_provinsi">Per Provinsi</string>
+    <string name="something_went_wrong">Something went wrong!</string>
+
+
+</resources>

@@ -6,7 +6,7 @@
     <data>
         <variable
             name="indonesiaCovidDetails"
-            type="com.junianto.covcare.model.IndonesiaCases" />
+            type="com.junianto.covcare.model.covid.IndonesiaCases" />
     </data>
     <androidx.core.widget.NestedScrollView
         android:layout_width="match_parent"
@@ -27,7 +27,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/indonesia_cases"
-                android:textAppearance="?attr/textAppearanceBody1"
+                android:textAppearance="@style/TextAppearance.CovCare.Body1"
                 android:layout_margin="16dp"
                 app:layout_constraintTop_toBottomOf="@id/includeCard"
                 app:layout_constraintStart_toStartOf="parent"/>
@@ -38,6 +38,7 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="16dp"
                 app:cardElevation="2dp"
+                app:cardCornerRadius="10dp"
                 app:layout_constraintTop_toBottomOf="@id/indonesiaCases"
                 app:layout_constraintStart_toStartOf="parent">
 
@@ -52,7 +53,7 @@
                         android:layout_height="wrap_content"
                         android:text="@string/jumlah_kasus"
                         android:textColor="@color/total_kasus"
-                        android:textAppearance="?attr/textAppearanceBody1"/>
+                        android:textAppearance="@style/TextAppearance.CovCare.Body1"/>
 
                     <TextView
                         android:id="@+id/tvTotalCases"
@@ -60,7 +61,7 @@
                         android:layout_height="wrap_content"
                         android:text="@{indonesiaCovidDetails.jumlahKasus}"
                         android:textColor="@color/total_kasus"
-                        android:textAppearance="?attr/textAppearanceBody2"/>
+                        android:textAppearance="@style/TextAppearance.CovCare.Body2"/>
                 </LinearLayout>
             </com.google.android.material.card.MaterialCardView>
 
@@ -70,6 +71,7 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="16dp"
                 app:cardElevation="2dp"
+                app:cardCornerRadius="10dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/indonesiaCases">
 
@@ -83,7 +85,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/dalam_perawatan"
-                        android:textAppearance="?attr/textAppearanceBody1"
+                        android:textAppearance="@style/TextAppearance.CovCare.Body1"
                         android:textColor="@color/total_dirawat" />
 
                     <TextView
@@ -91,7 +93,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@{indonesiaCovidDetails.perawatan}"
-                        android:textAppearance="?attr/textAppearanceBody2"
+                        android:textAppearance="@style/TextAppearance.CovCare.Body2"
                         android:textColor="@color/total_dirawat" />
                 </LinearLayout>
             </com.google.android.material.card.MaterialCardView>
@@ -102,6 +104,7 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="16dp"
                 app:cardElevation="2dp"
+                app:cardCornerRadius="10dp"
                 app:layout_constraintTop_toBottomOf="@id/cardTotalCases"
                 app:layout_constraintStart_toStartOf="parent">
 
@@ -116,7 +119,7 @@
                         android:layout_height="wrap_content"
                         android:text="@string/meninggal"
                         android:textColor="@color/total_meninggal"
-                        android:textAppearance="?attr/textAppearanceBody1"/>
+                        android:textAppearance="@style/TextAppearance.CovCare.Body1"/>
 
                     <TextView
                         android:id="@+id/tvTotalPassed"
@@ -124,7 +127,7 @@
                         android:layout_height="wrap_content"
                         android:textColor="@color/total_meninggal"
                         android:text="@{indonesiaCovidDetails.meninggal}"
-                        android:textAppearance="?attr/textAppearanceBody2"/>
+                        android:textAppearance="@style/TextAppearance.CovCare.Body2"/>
                 </LinearLayout>
             </com.google.android.material.card.MaterialCardView>
 
@@ -134,6 +137,7 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="16dp"
                 app:cardElevation="2dp"
+                app:cardCornerRadius="10dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/cardTotalTreated">
 
@@ -147,7 +151,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/sembuh"
-                        android:textAppearance="?attr/textAppearanceBody1"
+                        android:textAppearance="@style/TextAppearance.CovCare.Body1"
                         android:textColor="@color/total_sembuh" />
 
                     <TextView
@@ -155,7 +159,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@{indonesiaCovidDetails.sembuh}"
-                        android:textAppearance="?attr/textAppearanceBody2"
+                        android:textAppearance="@style/TextAppearance.CovCare.Body2"
                         android:textColor="@color/total_sembuh" />
                 </LinearLayout>
             </com.google.android.material.card.MaterialCardView>
@@ -166,9 +170,70 @@
                 android:layout_height="wrap_content"
                 android:text="@string/per_provinsi"
                 android:layout_margin="16dp"
-                android:textAppearance="?attr/textAppearanceBody1"
+                android:textAppearance="@style/TextAppearance.CovCare.Body1"
                 app:layout_constraintTop_toBottomOf="@id/cardTotalPassed"
                 app:layout_constraintStart_toStartOf="parent"/>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/crHeader"
+                app:layout_constraintTop_toBottomOf="@id/tvProvince"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginStart="16dp">
+
+                <TextView
+                    android:id="@+id/text_state_name"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/provinsi"
+                    android:textAppearance="@style/TextAppearance.CovCare.Caption"
+                    app:layout_constraintEnd_toStartOf="@+id/text_confirmed"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/text_confirmed"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/total_kasus"
+                    android:textAppearance="@style/TextAppearance.CovCare.Caption"
+                    android:textColor="@color/total_kasus"
+                    app:layout_constraintBaseline_toBaselineOf="@+id/text_state_name"
+                    app:layout_constraintEnd_toStartOf="@+id/text_recovered"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toEndOf="@+id/text_state_name" />
+
+                <TextView
+                    android:id="@+id/text_recovered"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/sembuh"
+                    android:textAppearance="@style/TextAppearance.CovCare.Caption"
+                    android:textColor="@color/total_sembuh"
+                    app:layout_constraintBaseline_toBaselineOf="@+id/text_state_name"
+                    app:layout_constraintEnd_toStartOf="@+id/text_deaths"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toEndOf="@+id/text_confirmed" />
+
+                <TextView
+                    android:id="@+id/text_deaths"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/meninggal"
+                    android:textAppearance="@style/TextAppearance.CovCare.Caption"
+                    android:textColor="@color/total_meninggal"
+                    app:layout_constraintBaseline_toBaselineOf="@+id/text_state_name"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toEndOf="@+id/text_recovered" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
 
             <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/rvProvince"
@@ -176,9 +241,10 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
                 android:layout_marginEnd="16dp"
-                android:layout_marginTop="8dp"
-                android:layout_marginBottom="8dp"
-                app:layout_constraintTop_toBottomOf="@id/tvProvince"
+                android:paddingBottom="16dp"
+                android:clipToPadding="false"
+                android:overScrollMode="never"
+                app:layout_constraintTop_toBottomOf="@id/crHeader"
                 app:layout_constraintStart_toStartOf="parent"/>
         </androidx.constraintlayout.widget.ConstraintLayout>
     </androidx.core.widget.NestedScrollView>

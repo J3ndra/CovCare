@@ -1,4 +1,4 @@
-package com.junianto.covcare.model
+package com.junianto.covcare.model.covid
 
 import android.os.Parcelable
 import com.google.gson.annotations.SerializedName

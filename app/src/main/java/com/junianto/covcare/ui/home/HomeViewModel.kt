@@ -2,8 +2,8 @@ package com.junianto.covcare.ui.home
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.ViewModel
-import com.junianto.covcare.model.ProvinceData
-import com.junianto.covcare.model.IndonesiaCases
+import com.junianto.covcare.model.covid.ProvinceData
+import com.junianto.covcare.model.covid.IndonesiaCases
 import com.junianto.covcare.network.api.NetworkState
 import io.reactivex.disposables.CompositeDisposable
 

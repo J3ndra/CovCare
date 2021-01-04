@@ -13,5 +13,11 @@
         <item
             android:id="@+id/nav_hospital"
             android:title="@string/rs_rujukan" />
+        <item
+            android:id="@+id/nav_prevention"
+            android:title="@string/cara_mencegah_covid_19"/>
+        <item
+            android:id="@+id/nav_symptoms"
+            android:title="@string/gejala_covid_19"/>
     </group>
 </menu>

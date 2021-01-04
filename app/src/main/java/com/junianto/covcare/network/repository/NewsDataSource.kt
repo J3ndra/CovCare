@@ -3,7 +3,7 @@ package com.junianto.covcare.network.repository
 import android.util.Log
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
-import com.junianto.covcare.model.NewsData
+import com.junianto.covcare.model.news.NewsData
 import com.junianto.covcare.network.api.NetworkState
 import com.junianto.covcare.network.api.apiInterface.NewsApiInterface
 import io.reactivex.disposables.CompositeDisposable

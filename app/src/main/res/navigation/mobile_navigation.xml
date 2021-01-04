@@ -8,18 +8,23 @@
     <fragment
         android:id="@+id/nav_home"
         android:name="com.junianto.covcare.ui.home.HomeFragment"
-        android:label="@string/beranda"
         tools:layout="@layout/fragment_home" />
 
     <fragment
         android:id="@+id/nav_news"
         android:name="com.junianto.covcare.ui.news.NewsFragment"
-        android:label="@string/berita_terkini"
         tools:layout="@layout/fragment_news" />
 
     <fragment
         android:id="@+id/nav_hospital"
         android:name="com.junianto.covcare.ui.hospital.HospitalFragment"
-        android:label="@string/rs_rujukan"
         tools:layout="@layout/fragment_hospital" />
+    <fragment
+        android:id="@+id/nav_symptoms"
+        android:name="com.junianto.covcare.ui.symptoms.SymptomsFragment"
+        tools:layout="@layout/fragment_symptoms" />
+    <fragment
+        android:id="@+id/nav_prevention"
+        android:name="com.junianto.covcare.ui.prevention.PreventionFragment"
+        tools:layout="@layout/fragment_prevention"/>
 </navigation>

@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <color name="color_primary">#FFFFFF</color>
+    <color name="color_secondary">#DD208A</color>
+
+    <color name="color_surface">#FAFAFA</color>
+    <color name="color_on_surface">#707070</color>
+
     <color name="purple_200">#FFBB86FC</color>
     <color name="purple_500">#FF6200EE</color>
     <color name="purple_700">#FF3700B3</color>
@@ -15,4 +21,6 @@
     <color name="total_meninggal">#A81717</color>
     <color name="total_sembuh">#3EC000</color>
     <color name="total_dirawat">#007787</color>
+
+    <color name="redAccent">#FF1A4B</color>
 </resources>

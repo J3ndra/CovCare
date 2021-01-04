@@ -1,7 +1,7 @@
 package com.junianto.covcare.network.api.apiInterface
 
-import com.junianto.covcare.model.IndonesiaCases
-import com.junianto.covcare.model.Province
+import com.junianto.covcare.model.covid.IndonesiaCases
+import com.junianto.covcare.model.covid.Province
 import io.reactivex.Single
 import retrofit2.http.GET
 

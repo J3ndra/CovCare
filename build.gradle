@@ -32,4 +32,5 @@ ext {
     retrofitVersion = '2.9.0'
     gsonVersion = '2.8.6'
     mdcVersion = '1.2.1'
+    glideVersion = '4.11.0'
 }

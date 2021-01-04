@@ -3,12 +3,10 @@ package com.junianto.covcare.network.repository
 import android.util.Log
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
-import com.junianto.covcare.model.ProvinceData
-import com.junianto.covcare.model.IndonesiaCases
-import com.junianto.covcare.model.NewsData
+import com.junianto.covcare.model.covid.ProvinceData
+import com.junianto.covcare.model.covid.IndonesiaCases
 import com.junianto.covcare.network.api.apiInterface.CovidApiInterface
 import com.junianto.covcare.network.api.NetworkState
-import com.junianto.covcare.network.api.apiInterface.NewsApiInterface
 import io.reactivex.disposables.CompositeDisposable
 import io.reactivex.schedulers.Schedulers
 import java.util.concurrent.TimeUnit

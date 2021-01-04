@@ -1,4 +1,4 @@
-package com.junianto.covcare.model
+package com.junianto.covcare.model.news
 
 
 import com.google.gson.annotations.SerializedName

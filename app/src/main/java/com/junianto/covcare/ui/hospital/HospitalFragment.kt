@@ -22,10 +22,6 @@ class HospitalFragment : Fragment() {
         hospitalViewModel =
                 ViewModelProvider(this).get(HospitalViewModel::class.java)
         val root = inflater.inflate(R.layout.fragment_hospital, container, false)
-        val textView: TextView = root.findViewById(R.id.text_slideshow)
-        hospitalViewModel.text.observe(viewLifecycleOwner, Observer {
-            textView.text = it
-        })
         return root
     }
 }

@@ -6,7 +6,7 @@ import androidx.databinding.DataBindingUtil
 import androidx.recyclerview.widget.RecyclerView
 import com.junianto.covcare.R
 import com.junianto.covcare.databinding.ItemNewsBinding
-import com.junianto.covcare.model.NewsData
+import com.junianto.covcare.model.news.NewsData
 
 class NewsAdapter (val news: List<NewsData>): RecyclerView.Adapter<NewsAdapter.NewsViewHolder>() {
 

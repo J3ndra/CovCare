@@ -1,7 +1,7 @@
 package com.junianto.covcare.ui.news
 
 import androidx.lifecycle.LiveData
-import com.junianto.covcare.model.NewsData
+import com.junianto.covcare.model.news.NewsData
 import com.junianto.covcare.network.api.NetworkState
 import com.junianto.covcare.network.api.apiInterface.NewsApiInterface
 import com.junianto.covcare.network.repository.NewsDataSource

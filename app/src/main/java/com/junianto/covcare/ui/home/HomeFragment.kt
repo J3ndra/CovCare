@@ -1,5 +1,7 @@
 package com.junianto.covcare.ui.home
 
+import android.content.Intent
+import android.net.Uri
 import android.os.Bundle
 import android.util.Log
 import android.view.LayoutInflater
@@ -12,12 +14,14 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.ViewModelProviders
 import androidx.recyclerview.widget.LinearLayoutManager
+import com.google.android.material.card.MaterialCardView
 import com.junianto.covcare.R
 import com.junianto.covcare.databinding.FragmentHomeBinding
-import com.junianto.covcare.model.IndonesiaCases
+import com.junianto.covcare.model.covid.IndonesiaCases
 import com.junianto.covcare.network.api.apiInterface.CovidApiInterface
 import com.junianto.covcare.network.api.Network
 import com.junianto.covcare.network.api.NetworkState
+import kotlinx.android.synthetic.main.home_header_card.*
 
 class HomeFragment : Fragment() {
 
@@ -52,6 +56,12 @@ class HomeFragment : Fragment() {
             binding.indonesiaCases.text = if (it == NetworkState.ERROR) "Tidak dapat mengambil data" else ""
             binding.indonesiaCases.text = if (it == NetworkState.LOADED) "Total kasus di Indonesia" else ""
         })
+
+        binding.includeCard.cardHeaderHome.setOnClickListener {
+            val phoneNumber = "081212123119"
+            val dialPhoneIntent = Intent(Intent.ACTION_DIAL, Uri.parse("tel:$phoneNumber"))
+            startActivity(dialPhoneIntent)
+        }
 
         return binding.root
     }

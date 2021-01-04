@@ -2,7 +2,7 @@ package com.junianto.covcare.ui.news
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.ViewModel
-import com.junianto.covcare.model.NewsData
+import com.junianto.covcare.model.news.NewsData
 import com.junianto.covcare.network.api.NetworkState
 import io.reactivex.disposables.CompositeDisposable
 

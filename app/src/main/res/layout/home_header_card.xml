@@ -6,8 +6,9 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_margin="16dp"
-    app:cardElevation="1dp"
     app:cardBackgroundColor="@color/home_header_card_color"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="10dp"
     app:layout_constraintEnd_toEndOf="parent"
     app:layout_constraintStart_toStartOf="parent"
     app:layout_constraintTop_toTopOf="parent">
@@ -27,7 +28,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/apakah_anda_merasak_tidak_enak_badan"
-                android:textAppearance="?attr/textAppearanceHeadline6"
+                android:textAppearance="@style/TextAppearance.CovCare.Headline6"
                 android:textColor="@color/white"/>
 
             <TextView
@@ -35,7 +36,7 @@
                 android:layout_height="wrap_content"
                 android:text="@string/penjelasan_card"
                 android:textColor="@color/white"
-                android:textAppearance="?attr/textAppearanceBody2" />
+                android:textAppearance="@style/TextAppearance.CovCare.Body2" />
         </LinearLayout>
 
         <!-- Buttons -->
@@ -49,7 +50,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textColor="@color/white"
-                android:textAppearance="?attr/textAppearanceButton"
+                android:textAppearance="@style/TextAppearance.CovCare.Button"
                 android:text="@string/hotline_home_card"/>
         </LinearLayout>
     </LinearLayout>

@@ -1,8 +1,8 @@
 package com.junianto.covcare.ui.home
 
 import androidx.lifecycle.LiveData
-import com.junianto.covcare.model.ProvinceData
-import com.junianto.covcare.model.IndonesiaCases
+import com.junianto.covcare.model.covid.ProvinceData
+import com.junianto.covcare.model.covid.IndonesiaCases
 import com.junianto.covcare.network.api.apiInterface.CovidApiInterface
 import com.junianto.covcare.network.api.NetworkState
 import com.junianto.covcare.network.repository.CovidDataSource

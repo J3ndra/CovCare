@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <layout
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
 
     <data>
         <variable
             name="province"
-            type="com.junianto.covcare.model.ProvinceData" />
+            type="com.junianto.covcare.model.covid.ProvinceData" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -15,42 +16,65 @@
 
         <TextView
             android:id="@+id/tvBindingProvince"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:text="@{province.provinsi}"
+            app:layout_constraintEnd_toStartOf="@+id/tvBindingTotalCases"
+            app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            android:textAppearance="?attr/textAppearanceBody1"/>
+            app:layout_constraintTop_toBottomOf="@+id/divider"
+            tools:text='Jawa Barat'
+            android:textAppearance="?attr/textAppearanceBody1"
+            android:layout_marginTop="8dp"/>
 
         <TextView
             android:id="@+id/tvBindingTotalCases"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_marginStart="16dp"
+            android:gravity="center"
             android:text="@{province.kasusPosi}"
-            app:layout_constraintStart_toEndOf="@id/tvBindingProvince"
-            app:layout_constraintTop_toTopOf="parent"
+            android:textColor="@color/total_kasus"
+            app:layout_constraintBaseline_toBaselineOf="@+id/tvBindingProvince"
+            app:layout_constraintEnd_toStartOf="@+id/tvBindingTotalRecovered"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/tvBindingProvince"
+            tools:text='100.000'
             android:textAppearance="?attr/textAppearanceSubtitle2"/>
 
         <TextView
             android:id="@+id/tvBindingTotalRecovered"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_marginStart="16dp"
+            android:gravity="center"
             android:text="@{province.kasusSemb}"
-            app:layout_constraintStart_toEndOf="@id/tvBindingTotalCases"
-            app:layout_constraintTop_toTopOf="parent"
+            android:textColor="@color/total_sembuh"
+            app:layout_constraintBaseline_toBaselineOf="@+id/tvBindingProvince"
+            app:layout_constraintEnd_toStartOf="@+id/tvBindingTotalPassed"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/tvBindingTotalCases"
+            tools:text='100.000'
             android:textAppearance="?attr/textAppearanceSubtitle2"/>
 
         <TextView
             android:id="@+id/tvBindingTotalPassed"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_marginStart="16dp"
             android:text="@{province.kasusMeni}"
-            app:layout_constraintStart_toEndOf="@id/tvBindingTotalRecovered"
-            app:layout_constraintTop_toTopOf="parent"
+            android:gravity="center"
+            android:textColor="@color/total_meninggal"
+            app:layout_constraintBaseline_toBaselineOf="@+id/tvBindingProvince"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/tvBindingTotalRecovered"
+            tools:text="100.000"
             android:textAppearance="?attr/textAppearanceSubtitle2"/>
 
+        <include
+            android:id="@id/divider"
+            layout="@layout/item_divider"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="8dp"/>
     </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>

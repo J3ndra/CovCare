@@ -25,7 +25,7 @@
     <string name="total_kasus">Total Kasus</string>
     <string name="sembuh">Sembuh</string>
     <string name="meninggal">Meninggal</string>
-    <string name="this_section_is_under_construction">This section is under construction</string>
+    <string name="this_section_is_under_construction">Maaf mengganggu kenyamanan Anda, tetapi halaman ini sedang dalam pengembangan. Jika anda tetap ingin mengetahui Rumah Sakit Rujukan yang menangani Covid-19.</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="gejala_covid_19">Gejala Covid-19</string>
@@ -60,5 +60,6 @@
     <string name="scare_emergency">Avoid the spread of Covid 19</string>
     <string name="scare_emergency_message">If you suspect that you are infected or someone close to you, see what are the appropriate measures to take.</string>
     <string name="cara_mencegah_covid_19">Cara Mencegah Covid-19</string>
+    <string name="menuju_covid19_go_id">Menuju Covid19.go.id</string>
 
 </resources>

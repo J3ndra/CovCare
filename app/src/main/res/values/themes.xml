@@ -33,9 +33,10 @@
         <item name="itemTextColor">@color/color_selector</item>
     </style>
 
-    <style name="Theme.CovCare.NoActionBar">
+    <style name="Theme.CovCare.NoActionBar" parent="Theme.CovCare">
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
+        <item name="windowActionBarOverlay">true</item>
     </style>
 
 </resources>

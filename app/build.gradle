@@ -19,7 +19,7 @@ android {
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
 
-        buildConfigField "String", "COVID_API_URL", "\"https://indonesia-covid-19-api.now.sh/\""
+        buildConfigField "String", "COVID_API_URL", "\"https://indonesia-covid-19.mathdro.id/\""
         buildConfigField "String", "NEWS_API_URL", "\"https://www.news.developeridn.com/\""
         setProperty("archivesBaseName", "Apps-v$versionName")
     }

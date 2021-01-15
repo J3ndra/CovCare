@@ -27,4 +27,23 @@
         android:id="@+id/nav_prevention"
         android:name="com.junianto.covcare.ui.prevention.PreventionFragment"
         tools:layout="@layout/fragment_prevention"/>
+    <fragment
+        android:id="@+id/aboutFragment"
+        android:name="com.junianto.covcare.ui.about.AboutFragment"
+        tools:layout="@layout/fragment_about"/>
+    <fragment
+        android:id="@+id/guideFragment"
+        android:name="com.junianto.covcare.ui.guide.GuideFragment"
+        tools:layout="@layout/fragment_guide">
+        <action
+            android:id="@+id/action_guideFragment_to_aboutFragment"
+            app:destination="@id/aboutFragment" />
+        <action
+            android:id="@+id/action_guideFragment_to_hotlineFragment"
+            app:destination="@id/hotlineFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/hotlineFragment"
+        android:name="com.junianto.covcare.ui.hotline.HotlineFragment"
+        tools:layout="@layout/fragment_hotline"/>
 </navigation>

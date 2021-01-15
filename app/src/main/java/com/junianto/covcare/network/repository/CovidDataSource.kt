@@ -58,9 +58,9 @@ class CovidDataSource (private val covidApiService: CovidApiInterface, private v
             compositeDisposable.add(
                     covidApiService.getProvinceDetails()
                             .map { it.data?.toList() }
-                            .delay(10, TimeUnit.SECONDS)
-                            .repeat()
-                            .retry()
+//                            .delay(10, TimeUnit.SECONDS)
+//                            .repeat()
+//                            .retry()
                             .subscribeOn(Schedulers.io())
                             .subscribe({
                                 _provinceDetailsResponse.postValue(it)

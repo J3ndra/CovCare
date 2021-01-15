@@ -21,7 +21,9 @@ import com.junianto.covcare.model.covid.IndonesiaCases
 import com.junianto.covcare.network.api.apiInterface.CovidApiInterface
 import com.junianto.covcare.network.api.Network
 import com.junianto.covcare.network.api.NetworkState
+import kotlinx.android.synthetic.main.fragment_home.view.*
 import kotlinx.android.synthetic.main.home_header_card.*
+import kotlinx.android.synthetic.main.item_province.view.*
 
 class HomeFragment : Fragment() {
 
@@ -51,10 +53,15 @@ class HomeFragment : Fragment() {
         homeViewModel.indonesiaData.observe(viewLifecycleOwner, Observer {
             bindUI(it)
         })
+
         homeViewModel.networkState.observe(viewLifecycleOwner, Observer {
-            binding.indonesiaCases.text = if (it == NetworkState.LOADING) "Loading" else ""
-            binding.indonesiaCases.text = if (it == NetworkState.ERROR) "Tidak dapat mengambil data" else ""
-            binding.indonesiaCases.text = if (it == NetworkState.LOADED) "Total kasus di Indonesia" else ""
+
+            with(binding) {
+                tvTotalCases.text = if (it == NetworkState.LOADING) "Loading" else "Loading"
+                tvTotalPassed.text = if (it == NetworkState.LOADING) "Loading" else "Loading"
+                tvTotalRecovered.text = if (it == NetworkState.LOADING) "Loading" else "Loading"
+                tvTotalTreated.text = if (it == NetworkState.LOADING) "Loading" else "Loading"
+            }
         })
 
         binding.includeCard.cardHeaderHome.setOnClickListener {

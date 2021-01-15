@@ -1,7 +1,7 @@
 
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Base.Theme.CovCare" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+    <style name="Base.Theme.CovCare" parent="Theme.MaterialComponents.Light.NoActionBar">
         <!-- Text appearances -->
         <item name="textAppearanceHeadline1">@style/TextAppearance.CovCare.Headline1</item>
         <item name="textAppearanceHeadline2">@style/TextAppearance.CovCare.Headline2</item>
@@ -24,7 +24,7 @@
         <item name="colorOnPrimary">@color/black</item>
 
         <!-- Status bar color. -->
-        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorSurface</item>
+<!--        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorSurface</item>-->
     </style>
 
     <style name="NavView" parent="Widget.Design.NavigationView">

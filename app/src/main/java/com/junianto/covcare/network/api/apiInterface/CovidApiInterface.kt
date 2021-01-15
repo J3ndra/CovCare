@@ -6,9 +6,9 @@ import io.reactivex.Single
 import retrofit2.http.GET
 
 interface CovidApiInterface {
-    @GET("api/")
+    @GET("api")
     fun getIndonesiaDetails(): Single<IndonesiaCases>
 
-    @GET("api/provinsi/")
+    @GET("api/provinsi")
     fun getProvinceDetails(): Single<Province>
 }

@@ -61,5 +61,14 @@
     <string name="scare_emergency_message">If you suspect that you are infected or someone close to you, see what are the appropriate measures to take.</string>
     <string name="cara_mencegah_covid_19">Cara Mencegah Covid-19</string>
     <string name="menuju_covid19_go_id">Menuju Covid19.go.id</string>
+    <string name="about">This is personal project and also made for my final assignment. Also it\'s open source. If you want to report a bug or want to contribute.</string>
+    <string name="github">Github</string>
+    <string name="githubName">J3ndra21</string>
+    <string name="hotlines">Covid-19 Hotlines</string>
+    <string name="hotline_number">Berikut adalah nomor atau email mengenai Covid-19 dari Pemerintah Pusat</string>
+    <string name="whodev">Siapa orang dibalik aplikasi ini?</string>
+    <string name="about_dev">Tentang Developer</string>
+    <string name="bantuan">Bantuan</string>
+    <string name="kontak_layanan">KONTAK LAYANAN KEMENTERIAN/LEMBAGA UNTUK COVID-19</string>
 
 </resources>

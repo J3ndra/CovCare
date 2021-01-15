@@ -59,7 +59,7 @@
 
                     </LinearLayout>
 
-                    <androidx.appcompat.widget.AppCompatImageView
+                    <ImageView
                         android:id="@+id/emergencyImage"
                         android:layout_width="80dp"
                         android:layout_height="match_parent"

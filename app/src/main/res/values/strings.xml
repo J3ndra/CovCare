@@ -31,36 +31,36 @@
     <string name="gejala_covid_19">Gejala Covid-19</string>
 
     <!-- Symptoms -->
-    <string name="symptoms_title_1">What is COVID-19?</string>
-    <string name="symptoms_desc_1">COVID-19 is the most recently discovered infectious disease caused by the coronavirus. Both the new virus and the disease were unknown before the outbreak in Wuhan, China, in December 2019.</string>
-    <string name="symptoms_title_2">What are the symptoms of COVID-19?</string>
-    <string name="symptoms_desc_2">The most common symptoms of COVID-19 are fever, tiredness, and dry cough. Some patients may experience pain, nasal congestion, runny nose, sore throat, or diarrhea. These symptoms are usually mild and appear gradually. Some people become infected but do not develop any symptoms and are not ill. Most people (about 80%) recover from the disease without needing any special treatment. About 1 in 6 people who get COVID-19 develop a serious illness and have trouble breathing. Older people and those with underlying medical conditions, such as high blood pressure, heart problems, or diabetes, are more likely to develop serious illness. About 2% of people who have contracted the disease have died. People with fever, cough, and shortness of breath should seek medical attention.</string>
-    <string name="symptoms_title_3">Do you suspect that you or someone close to you may be infected?</string>
+    <string name="symptoms_title_1">Apa itu COVID-19?</string>
+    <string name="symptoms_desc_1">COVID-19 adalah penyakit menular yang paling baru ditemukan yang disebabkan oleh virus corona. Virus dan penyakit tersebut belum diketahui sebelum adanya wabah di Wuhan, China, di bulan Desember 2019.</string>
+    <string name="symptoms_title_2">Apa gejala yang disebabkan oleh COVID-19?</string>
+    <string name="symptoms_desc_2">Gejala umum yang disebabkan oleg COVID-19 adalah demam, lelah, dan batuk kering. Beberapa pasien mungkin merasakan kesakitan, hidung tersumbat, pilek, sakit tenggorokan, atau diare. gejala ini adalah gejala ringan and muncul secara bertahap. Beberapa orang yang terinfeksi tidak terlihat suatu gejala dan terlihat sehat. Banyak orang (Sekitar 80%) dapat sembuh tanpa memerlukan penanganan khusus. 1 dari 6 orang yang terkena COVID-19 mendapatkan gejala yang serius dan mengalami kesulitan bernafas. Orang tua dan mereka yang memiliki penyakit bawaan, seperti tekanan darah tinggi, masalah jantung, atau diabetes, lebih memungkinkan untuk mengalami penyakit serius. Sekitar 2% dari orang yang terinfeksi meninggal. Orang yang mendapatkan gejala deman, batuk, dan kesulitan bernafas diwajibkan untuk mendapatkan penanganan medis.</string>
+    <string name="symptoms_title_3">Apakah anda menganggap bahwa diri anda atau orang didekat anda terkena COVID-19?</string>
     <string name="demam">Demam</string>
     <string name="batuk">Batuk</string>
     <string name="kesulitan_bernafas">Kesulitan Bernafas</string>
     <string name="flu">Flu</string>
 
     <!-- Emergency -->
-    <string name="emergency_head">Avoid the spread of Coronavirus</string>
-    <string name="emergency_title_1">How is COVID-19 spread?</string>
-    <string name="emergency_desc_1">A person can get COVID-19 from contact with someone who is infected with the virus. The disease can spread from person to person through droplets from the nose or mouth that are thrown out when an infected person coughs or exhales. These droplets fall on objects and surfaces around the person, so other people can get COVID-19 if they touch these objects or surfaces and then touch their eyes, nose, or mouth. They can also be spread by inhaling droplets that a person with COVID-19 has spread by coughing or exhaling. That is why it is important to stay more than 1 meter (3 feet) away from a person who is ill.The WHO is studying ongoing research into ways of spreading COVID-19 and will continue to report updated results.</string>
-    <string name="emergency_title_2">Can the virus that causes COVID-19 be transmitted through the air?</string>
-    <string name="emergency_desc_2">Studies to date suggest that the virus causing COVID-19 is transmitted primarily by contact with respiratory droplets, rather than by air.</string>
-    <string name="emergency_title_3">Is it possible to get COVID-19 from contact with a person who does not have any symptoms?</string>
-    <string name="emergency_desc_3">The main way of spreading the disease is through the respiratory droplets expelled by someone when coughing. The risk of getting COVID-19 from someone with no symptoms is very low. However, many people who get COVID-19 have only mild symptoms. This is particularly true in the early stages of the disease.</string>
-    <string name="emergency_title_4">What can I do to protect myself and prevent the spread of the disease?</string>
-    <string name="emergency_desc_4">Keep up to date with the latest information on the COVID-19 outbreak, which can be accessed on the WHO website and through relevant public health authorities at the national and local levels. Cases have been reported in many countries around the world, and outbreaks have occurred in several of them. Chinese and other authorities have managed to slow or stop the outbreak progress, but the situation is unpredictable and the latest news needs to be checked regularly.</string>
-    <string name="emergency_prevent_1">Wash your hands thoroughly and often using an alcohol-based disinfectant or soap and water.</string>
-    <string name="emergency_prevent_2">Keep a minimum distance of 1 meter (3 feet) between you and anyone who coughs or sneezes.</string>
-    <string name="emergency_prevent_3">Avoid touching your eyes, nose and mouth</string>
-    <string name="emergency_prevent_4">Both you and those around you should make sure you maintain good airway hygiene. That means covering your mouth and nose with your elbow bent or with a tissue when you cough or sneeze. The used handkerchief should be discarded immediately.</string>
-    <string name="emergency_prevent_5">Stay home if you are not feeling well. If you have a fever, cough, and shortness of breath, seek medical attention and call ahead. Follow the instructions of the local health authorities.</string>
-
-    <string name="scare_emergency">Avoid the spread of Covid 19</string>
-    <string name="scare_emergency_message">If you suspect that you are infected or someone close to you, see what are the appropriate measures to take.</string>
+    <string name="emergency_head">Hindari Penyebaran virus corona</string>
+    <string name="emergency_title_1">Bagaimana cara COVID-19 menyebar?</string>
+    <string name="emergency_desc_1">Seseorang dapat terinfeksi COVID-19 dari kontak dengan seseorang yang sudah terinfeksi sebelumnya. Penyakit ini dapat menyebar dari orang ke orang melalui cairan dari hidung atau mulut yang dikeluarkan saat orang yang terinfeksi batuk atau mengeluarkan napas. Cairan ini jatuh pada benda dan permukaan di sekitar orang tersebut, sehingga orang lain bisa tertular COVID-19 apabila mereka menyentuh benda atau permukaan ini lalu menyentuh mata, hidung, atau mulutnya. Mereka juga dapat menyebar dengan menghirup cairan yang disebarkan oleh penderita COVID-19 melalui batuk atau menghembuskan napas. Itulah mengapa sangat penting untuk menjaga jarak lebih dari 1 meter (3 kaki) dari orang yang sakit. WHO sedang meneliti tentang cara penyebaran COVID-19 dan akan terus melaporkan hasil yang terbaru.</string>
+    <string name="emergency_title_2">Apakah virus yang menyebabkan COVID-19 dapat menyebar melalui udara??</string>
+    <string name="emergency_desc_2">Studi terbaru menunjukan bahwa virus penyebab COVID-19 disebarkan melalui kontak dengan droplet yang keluar dari napas seseorang,dibandingkan melalui udara.</string>
+    <string name="emergency_title_3">Apakah mungkin seseorang dapat terinfeksi COVID-19 dari kontak dengan seseorang yang tidak memiliki gejala?</string>
+    <string name="emergency_desc_3">Cara utama penyebaran penyakit ini adalah melalui cairan pernafasan yang dikeluarkan oleh seseorang saat batuk. Risiko tertular COVID-19 dari seseorang tanpa gejala sangatlah rendah. Namun, banyak orang yang terkena COVID-19 hanya mengalami gejala ringan. Hal ini terutama terjadi pada tahap awal penyakit.</string>
+    <string name="emergency_title_4">Hal apa saja yang dapat saya lakukan untuk menjaga diri dan mengurangi penyebaran COVID-19?</string>
+    <string name="emergency_desc_4">Selalu update dengan berita penyebaran COVID-19, yang dapat diakses melalui website resmi WHO dan melalui dinas kesehatan nasional atau lokal. Kasus telah dilaporkan di banyak negara di seluruh dunia, dan wabah COVID-19 telah terjadi di beberapa negara. Pihak berwenang China dan lainnya telah berhasil memperlambat atau menghentikan perkembangan wabah, tetapi situasinya tidak dapat diprediksi dan berita terbaru perlu diperiksa secara teratur.</string>
+    <string name="emergency_prevent_1">Biasakan cuci tangan menggunakan sabun atau Hand Sanitizer.</string>
+    <string name="emergency_prevent_2">Jaga jarak minimal 1 meter (3 kaki) diantara anda dan orang yang sedang batuk.</string>
+    <string name="emergency_prevent_3">Hindari menyentuh Mata, Hidung, dan Mulut</string>
+    <string name="emergency_prevent_4">Anda dan orang di sekitar Anda harus memastikan bahwa Anda menjaga kesterilan udara. yaitu,dengan cara menutupi mulut dan hidung dengan siku ditekuk atau dengan tisu saat batuk atau bersin. Saputangan bekas tersebut harus segera dibuang.</string>
+    <string name="emergency_prevent_5">Tetap dirumah apabila anda merasa tidak enak badan. Jika anda demam, batuk dan mengalami kesulitan bernafas, hubungi petugas kesehatan setempat. Ikuti arahan dari Dinas Kesehatan setempat.</string>
+    <string name="scare_emergency">Kurangi penyebaran Virus COVID-19</string>
+    <string name="scare_emergency_message">Jika anda mencurigai diri anda atau orang didekat anda terinfeksi COVID-19, cari langkah - langkah yang dapat anda lakukan.</string>
     <string name="cara_mencegah_covid_19">Cara Mencegah Covid-19</string>
     <string name="menuju_covid19_go_id">Menuju Covid19.go.id</string>
+
     <string name="about">This is personal project and also made for my final assignment. Also it\'s open source. If you want to report a bug or want to contribute.</string>
     <string name="github">Github</string>
     <string name="githubName">J3ndra21</string>

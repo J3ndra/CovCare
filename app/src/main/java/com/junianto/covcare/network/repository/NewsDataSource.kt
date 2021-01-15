@@ -26,7 +26,7 @@ class NewsDataSource (private val newsApiService: NewsApiInterface, private val 
         try {
             compositeDisposable.add(
                 newsApiService.getCovidNews()
-                    .map { it.data?.toList() }
+                    .map { it.data.toList() }
                     .delay(10, TimeUnit.SECONDS)
                     .repeat()
                     .retry()

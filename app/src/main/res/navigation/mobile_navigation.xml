@@ -32,7 +32,7 @@
         android:name="com.junianto.covcare.ui.about.AboutFragment"
         tools:layout="@layout/fragment_about"/>
     <fragment
-        android:id="@+id/guideFragment"
+        android:id="@+id/nav_guide"
         android:name="com.junianto.covcare.ui.guide.GuideFragment"
         tools:layout="@layout/fragment_guide">
         <action

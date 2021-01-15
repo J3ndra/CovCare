@@ -23,7 +23,7 @@ class AboutFragment : Fragment() {
         binding = DataBindingUtil.inflate(inflater, R.layout.fragment_about, container, false)
 
         binding.btnGithub.setOnClickListener {
-            val url = "https://github.com/J3ndra"
+            val url = "https://github.com/J3ndra/CovCare"
             val intent = Intent(Intent.ACTION_VIEW, Uri.parse(url))
             startActivity(intent)
         }

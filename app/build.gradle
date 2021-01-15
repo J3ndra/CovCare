@@ -34,7 +34,7 @@ android {
                 variant.outputs.all { output ->
                     def flavor = variant.name
                     def version = variant.versionName
-                    outputFileName = new File("Apps-v.$version($flavor).apk")
+                    outputFileName = new File("CovCare-v.$version($flavor).apk")
                 }
             }
         }
@@ -48,7 +48,7 @@ android {
                 variant.outputs.all { output ->
                     def flavor = variant.name
                     def version = variant.versionName
-                    outputFileName = new File("Apps-v.$version($flavor).apk")
+                    outputFileName = new File("CovCare-v.$version($flavor).apk")
                 }
             }
         }

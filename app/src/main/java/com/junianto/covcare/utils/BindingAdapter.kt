@@ -1,5 +1,6 @@
 package com.junianto.covcare.utils
 
+import android.webkit.WebView
 import android.widget.ImageView
 import androidx.databinding.BindingAdapter
 import com.bumptech.glide.Glide
@@ -11,4 +12,9 @@ fun loadNewsImage(view: ImageView, imageUrl: String?) {
         .load(imageUrl)
         .error(R.drawable.ic_broken_image)
         .into(view)
+}
+
+@BindingAdapter("loadUrl")
+fun WebView.setUrl(url: String) {
+    this.loadUrl(url)
 }

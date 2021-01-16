@@ -1,6 +1,7 @@
 package com.junianto.covcare.ui.news
 
 import android.view.LayoutInflater
+import android.view.View
 import android.view.ViewGroup
 import androidx.databinding.DataBindingUtil
 import androidx.recyclerview.widget.RecyclerView
@@ -8,7 +9,7 @@ import com.junianto.covcare.R
 import com.junianto.covcare.databinding.ItemNewsBinding
 import com.junianto.covcare.model.news.NewsData
 
-class NewsAdapter (val news: List<NewsData>): RecyclerView.Adapter<NewsAdapter.NewsViewHolder>() {
+class NewsAdapter (val news: List<NewsData>, private val onItemClick: (position: Int, view: View) -> Unit): RecyclerView.Adapter<NewsAdapter.NewsViewHolder>() {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): NewsViewHolder {
         return NewsViewHolder(DataBindingUtil.inflate(LayoutInflater.from(parent.context), R.layout.item_news, parent, false))
@@ -16,6 +17,7 @@ class NewsAdapter (val news: List<NewsData>): RecyclerView.Adapter<NewsAdapter.N
 
     override fun onBindViewHolder(holder: NewsViewHolder, position: Int) {
         news[position].let { holder.bind(it) }
+        holder.itemView.setOnClickListener { onItemClick(position, it) }
     }
 
     override fun getItemCount(): Int = news.size

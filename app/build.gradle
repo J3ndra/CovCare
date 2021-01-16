@@ -52,7 +52,7 @@ android {
                 }
             }
         }
-    }
+     }
 
     buildFeatures {
         dataBinding true

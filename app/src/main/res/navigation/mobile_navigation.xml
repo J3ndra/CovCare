@@ -13,7 +13,11 @@
     <fragment
         android:id="@+id/nav_news"
         android:name="com.junianto.covcare.ui.news.NewsFragment"
-        tools:layout="@layout/fragment_news" />
+        tools:layout="@layout/fragment_news" >
+        <action
+            android:id="@+id/action_nav_news_to_nav_newsDetail"
+            app:destination="@id/nav_newsDetail" />
+    </fragment>
 
     <fragment
         android:id="@+id/nav_hospital"
@@ -46,4 +50,8 @@
         android:id="@+id/hotlineFragment"
         android:name="com.junianto.covcare.ui.hotline.HotlineFragment"
         tools:layout="@layout/fragment_hotline"/>
+    <fragment
+        android:id="@+id/nav_newsDetail"
+        android:name="com.junianto.covcare.ui.news.details.NewsDetailFragment"
+        tools:layout="@layout/fragment_news_detail"/>
 </navigation>

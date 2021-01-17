@@ -4,7 +4,7 @@
  <p align="center">Documentation & screenshots are in progress!</p>
 </p>
   <p align="center">
-    <a href="https://github.com/J3ndra/CovCare/raw/master/APK/CovCare-v.1.0(debug).apk">View Demo</a>
+    <a href="https://github.com/J3ndra/CovCare/raw/master/app/release/CovCare-v.1.0(release).apk">View Demo</a>
     ·
     <a href="https://github.com/J3ndra/CovCare/issues/new">Report Bug</a>
     ·
